@@ -6,7 +6,7 @@ from hijri_converter import Hijri  # Fallback library
 
 class HijriDateApp:
     def __init__(self):
-        self.api_key = "VNKdDDuaQzuMbryxptpLE070ouxokP20"
+        self.api_key = "API_KEY=YOUR_API_KEY_HERE" #Configuration  Get a free API key at [Calendarific](https://calendarific.com/)
         self.country = "SA"
         self.setup_ui()
         self.fetch_date()
